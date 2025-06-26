@@ -34,7 +34,7 @@ const About = () => {
               <div className="w-80 h-80 rounded-full bg-gradient-to-br from-purple-600 to-blue-600 p-1">
                 <div className="w-full h-full rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center">
                   <img 
-                    src="https://raw.githubusercontent.com/GLCRealm/My-Portfolio/main/public/photo/profile.jpg" 
+                    src="https://raw.githubusercontent.com/GLCRealm/motion-dev-profile/main/public/photo/profile.jpg" 
                     alt="Profile" 
                     className="w-full h-full rounded-full object-cover"
                   />
