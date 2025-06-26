@@ -11,20 +11,20 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: 'E-Commerce Platform',
-      description: 'A full-stack e-commerce solution with React, Node.js, and PostgreSQL. Features include user authentication, payment processing, and inventory management.',
+      title: 'SyntaxForge',
+      description: 'A custom programming language built using SyntaxForge, designed from scratch with unique syntax rules and parsing logic. Features include a tailored grammar definition, abstract syntax tree generation, and interpretation of custom expressions. Built for experimentation with compiler design principles and language theory.',
       image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=300&fit=crop',
-      technologies: ['React', 'Node.js', 'PostgreSQL', 'Stripe', 'Tailwind CSS'],
+      technologies: ['Python', 'Lexical Analysis', 'Parsing', 'Tokenization'],
       githubUrl: '#',
       liveUrl: '#',
       featured: true
     },
     {
       id: 2,
-      title: 'Task Management App',
-      description: 'A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.',
+      title: 'WORK-Flow',
+      description: 'A responsive and interactive website built using HTML, CSS, and JavaScript. Includes dynamic elements like modals, animations, and user-driven interactions—crafted without any frameworks.',
       image: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500&h=300&fit=crop',
-      technologies: ['Next.js', 'TypeScript', 'Prisma', 'Socket.io', 'Tailwind CSS'],
+      technologies: ['HTML5', 'CSS3', 'JavaScript'],
       githubUrl: '#',
       liveUrl: '#',
       featured: true
@@ -39,36 +39,16 @@ const Projects = () => {
       liveUrl: '#',
       featured: false
     },
-    {
-      id: 4,
-      title: 'Blog Platform',
-      description: 'A modern blog platform with markdown support, comment system, and SEO optimization built with Next.js.',
-      image: 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=500&h=300&fit=crop',
-      technologies: ['Next.js', 'MDX', 'MongoDB', 'Next-SEO'],
-      githubUrl: '#',
-      liveUrl: '#',
-      featured: false
-    },
-    {
-      id: 5,
-      title: 'Fitness Tracker',
-      description: 'A comprehensive fitness tracking application with workout plans, progress monitoring, and social features.',
-      image: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=500&h=300&fit=crop',
-      technologies: ['React Native', 'Firebase', 'Redux', 'Charts'],
-      githubUrl: '#',
-      liveUrl: '#',
-      featured: true
-    },
-    {
-      id: 6,
-      title: 'Portfolio Website',
-      description: 'A responsive portfolio website showcasing projects and skills with smooth animations and modern design.',
-      image: 'https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=500&h=300&fit=crop',
-      technologies: ['React', 'Tailwind CSS', 'Framer Motion', 'Vercel'],
-      githubUrl: '#',
-      liveUrl: '#',
-      featured: false
-    }
+    // {
+    //   id: 4,
+    //   title: 'Blog Platform',
+    //   description: 'A modern blog platform with markdown support, comment system, and SEO optimization built with Next.js.',
+    //   image: 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=500&h=300&fit=crop',
+    //   technologies: ['Next.js', 'MDX', 'MongoDB', 'Next-SEO'],
+    //   githubUrl: '#',
+    //   liveUrl: '#',
+    //   featured: false
+    // },
   ];
 
   return (
