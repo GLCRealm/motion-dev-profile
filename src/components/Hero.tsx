@@ -89,12 +89,12 @@ const Hero = () => {
             </Button>
             <a href="https://raw.githubusercontent.com/GLCRealm/motion-dev-profile/main/public/photo/Tomar.pdf" Download="Resume.pdf">
               <Button 
-                size="lg" 
-                variant="outline" 
-                className="border-white/30 text-white hover:bg-white/10 px-8 py-3 text-lg font-semibold transition-all duration-300"
-              >
-                Download CV
-              </Button>
+                  size="lg"
+                  variant="outline"
+                  className="border-purple-600 text-purple-600 hover:bg-purple-600 hover:text-white transition-all duration-300"
+                >
+                  Download CV
+                </Button>
             </a>
             
           </div>
