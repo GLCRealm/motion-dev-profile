@@ -60,7 +60,7 @@ const Hero = () => {
       <div className="container mx-auto px-6 text-center relative z-10">
         <div className="animate-fade-in">
           <h1 className="text-5xl md:text-7xl font-bold mb-6">
-            <span className="block text-white mb-2">John</span>
+            <span className="block text-white mb-2">Adrash Tomar</span>
             <span className="block text-gradient">Developer</span>
           </h1>
           
@@ -88,6 +88,7 @@ const Hero = () => {
               View My Work
             </Button>
             <Button 
+              colors ="black"
               size="lg" 
               variant="outline" 
               className="border-white/30 text-white hover:bg-white/10 px-8 py-3 text-lg font-semibold transition-all duration-300"
