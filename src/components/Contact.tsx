@@ -203,13 +203,15 @@ const Contact = () => {
 
             {/* Download Resume */}
             <div className="pt-8">
-              <Button 
-                size="lg"
-                variant="outline"
-                className="border-purple-600 text-purple-600 hover:bg-purple-600 hover:text-white transition-all duration-300"
-              >
-                Download Resume
-              </Button>
+              <a href="public/photo/Tomar.pdf" Download="Resume.pdf">
+                <Button 
+                  size="lg"
+                  variant="outline"
+                  className="border-purple-600 text-purple-600 hover:bg-purple-600 hover:text-white transition-all duration-300"
+                >
+                  Download Resume
+                </Button>
+              </a>
             </div>
           </div>
         </div>
