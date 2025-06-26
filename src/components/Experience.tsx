@@ -7,16 +7,15 @@ const Experience = () => {
     {
       id: 1,
       type: 'education',
-      title: 'Bachelor of Computer Science',
-      company: 'University of Technology',
-      period: '2020 - 2024',
-      description: 'Graduated with honors. Focused on software engineering, algorithms, and web development. Built strong foundation in computer science fundamentals and modern development practices.',
+      title: 'Bachelor of Technology in Computer Science',
+      company: 'Graphic Er Hill University',
+      period: '2022 - 2026',
+      description: 'Graduation is ongoing. Focused on software engineering, algorithms, and web development. Built strong foundation in computer science fundamentals and modern development practices.',
       technologies: ['Java', 'Python', 'C++', 'JavaScript', 'React', 'Database Design'],
       achievements: [
-        'Graduated Magna Cum Laude',
-        'President of Coding Club',
-        'Won multiple hackathon competitions',
-        'Dean\'s List for 6 consecutive semesters'
+        'Hand on Projects experience',
+        'Member of Coding Club',
+        'Won a hackathon competitions',
       ]
     },
     {
@@ -29,9 +28,7 @@ const Experience = () => {
       technologies: ['React', 'Node.js', 'MongoDB', 'Express.js', 'TypeScript', 'AWS'],
       achievements: [
         'Top 10% of graduating class',
-        'Built 5+ full-stack applications',
-        'Mentored junior students',
-        'Received industry certification'
+        'Mentored junior students'
       ]
     }
   ];
