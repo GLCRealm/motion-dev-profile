@@ -34,7 +34,7 @@ const About = () => {
               <div className="w-80 h-80 rounded-full bg-gradient-to-br from-purple-600 to-blue-600 p-1">
                 <div className="w-full h-full rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center">
                   <img 
-                    src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face&auto=format" 
+                    src="https://raw.githubusercontent.com/GLCRealm/My-Portfolio/main/public/photo/profile.jpg" 
                     alt="Profile" 
                     className="w-full h-full rounded-full object-cover"
                   />
@@ -53,9 +53,7 @@ const About = () => {
                 Passionate Full Stack Developer
               </h3>
               <p className="text-slate-600 dark:text-slate-300 leading-relaxed mb-6">
-                I'm a dedicated full-stack developer with over 3 years of experience building 
-                modern web applications. I love turning complex problems into simple, beautiful, 
-                and intuitive solutions.
+                Hello! I'm Adarsh, a computer science student with a passion for building clean and responsive user interfaces. I'm skilled in JavaScript, HTML, and CSS, and I enjoy bringing ideas to life in the browser. While I have a strong understanding of backend API integration, my focus is on creating exceptional user experiences. I'm currently diving deep into React and Next.js to build modern, fast, and dynamic web applications.
               </p>
               <p className="text-slate-600 dark:text-slate-300 leading-relaxed">
                 When I'm not coding, you'll find me exploring new technologies, contributing to 
