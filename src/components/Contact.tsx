@@ -47,10 +47,10 @@ const Contact = () => {
   };
 
   const socialLinks = [
-    { icon: Github, label: 'GitHub', href: '#', color: 'hover:text-gray-900 dark:hover:text-gray-100' },
-    { icon: Linkedin, label: 'LinkedIn', href: '#', color: 'hover:text-blue-600' },
+    { icon: Github, label: 'GitHub', href: 'https://github.com/adarshtomar333', color: 'hover:text-gray-900 dark:hover:text-gray-100' },
+    { icon: Linkedin, label: 'LinkedIn', href: 'https://www.linkedin.com/in/adarsh-tomar-50658524b/', color: 'hover:text-blue-600' },
     { icon: Twitter, label: 'Twitter', href: '#', color: 'hover:text-blue-400' },
-    { icon: Mail, label: 'Email', href: 'mailto:john@example.com', color: 'hover:text-red-500' }
+    { icon: Mail, label: 'Email', href: 'mailto:adarshtomar333@gmail.com', color: 'hover:text-red-500' }
   ];
 
   return (
@@ -190,6 +190,8 @@ const Contact = () => {
                   <a
                     key={social.label}
                     href={social.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className={`p-3 rounded-full bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300 transition-all duration-300 transform hover:scale-110 ${social.color}`}
                     aria-label={social.label}
                   >

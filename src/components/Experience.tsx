@@ -6,58 +6,32 @@ const Experience = () => {
   const experiences = [
     {
       id: 1,
-      type: 'work',
-      title: 'Senior Frontend Developer',
-      company: 'TechCorp Solutions',
-      period: '2022 - Present',
-      description: 'Lead frontend development for enterprise applications serving 100k+ users. Implemented modern React patterns and improved performance by 40%.',
-      technologies: ['React', 'TypeScript', 'Next.js', 'GraphQL'],
+      type: 'education',
+      title: 'Bachelor of Computer Science',
+      company: 'University of Technology',
+      period: '2020 - 2024',
+      description: 'Graduated with honors. Focused on software engineering, algorithms, and web development. Built strong foundation in computer science fundamentals and modern development practices.',
+      technologies: ['Java', 'Python', 'C++', 'JavaScript', 'React', 'Database Design'],
       achievements: [
-        'Led a team of 4 developers',
-        'Reduced load times by 40%',
-        'Implemented CI/CD pipeline'
+        'Graduated Magna Cum Laude',
+        'President of Coding Club',
+        'Won multiple hackathon competitions',
+        'Dean\'s List for 6 consecutive semesters'
       ]
     },
     {
       id: 2,
-      type: 'work',
-      title: 'Full Stack Developer',
-      company: 'StartupXYZ',
-      period: '2020 - 2022',
-      description: 'Built and maintained multiple web applications from scratch. Worked closely with design and product teams to deliver user-centric solutions.',
-      technologies: ['React', 'Node.js', 'MongoDB', 'AWS'],
-      achievements: [
-        'Developed 5+ production applications',
-        'Reduced server costs by 30%',
-        'Mentored junior developers'
-      ]
-    },
-    {
-      id: 3,
-      type: 'work',
-      title: 'Frontend Developer Intern',
-      company: 'WebStudio Inc',
-      period: '2019 - 2020',
-      description: 'Contributed to various client projects, focusing on responsive design and user experience optimization.',
-      technologies: ['JavaScript', 'React', 'SASS', 'WordPress'],
-      achievements: [
-        'Completed 10+ client projects',
-        'Improved mobile responsiveness',
-        'Learned modern development practices'
-      ]
-    },
-    {
-      id: 4,
       type: 'education',
-      title: 'Bachelor of Computer Science',
-      company: 'University of Technology',
-      period: '2016 - 2020',
-      description: 'Graduated with honors. Focused on software engineering, algorithms, and web development.',
-      technologies: ['Java', 'Python', 'C++', 'Database Design'],
+      title: 'Full Stack Web Development Bootcamp',
+      company: 'Tech Academy',
+      period: '2023',
+      description: 'Intensive 6-month program focused on modern web development technologies and best practices. Completed multiple real-world projects and collaborated with industry professionals.',
+      technologies: ['React', 'Node.js', 'MongoDB', 'Express.js', 'TypeScript', 'AWS'],
       achievements: [
-        'Graduated Magna Cum Laude',
-        'President of Coding Club',
-        'Won hackathon competition'
+        'Top 10% of graduating class',
+        'Built 5+ full-stack applications',
+        'Mentored junior students',
+        'Received industry certification'
       ]
     }
   ];
@@ -66,9 +40,9 @@ const Experience = () => {
     <section id="experience" className="min-h-screen py-20 bg-slate-50 dark:bg-slate-900">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-gradient">Experience</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-gradient">Education</h2>
           <p className="text-lg text-slate-600 dark:text-slate-300 max-w-2xl mx-auto">
-            My professional journey and educational background
+            My educational journey and academic achievements
           </p>
         </div>
 
@@ -102,13 +76,10 @@ const Experience = () => {
                           </div>
                           <div className="flex items-center gap-2">
                             <Badge 
-                              variant={exp.type === 'work' ? 'default' : 'secondary'}
-                              className={exp.type === 'work' 
-                                ? 'bg-gradient-to-r from-purple-600 to-blue-600 text-white' 
-                                : 'bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200'
-                              }
+                              variant="secondary"
+                              className="bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200"
                             >
-                              {exp.type === 'work' ? 'Work' : 'Education'}
+                              Education
                             </Badge>
                             <span className="text-sm text-slate-500 dark:text-slate-400 font-medium">
                               {exp.period}
@@ -125,7 +96,7 @@ const Experience = () => {
                         {/* Technologies */}
                         <div className="mb-4">
                           <h4 className="text-sm font-semibold text-slate-700 dark:text-slate-300 mb-2">
-                            Technologies:
+                            Technologies Studied:
                           </h4>
                           <div className="flex flex-wrap gap-2">
                             {exp.technologies.map((tech) => (
