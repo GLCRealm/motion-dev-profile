@@ -203,7 +203,7 @@ const Contact = () => {
 
             {/* Download Resume */}
             <div className="pt-8">
-              <a href="public/photo/Tomar.pdf" Download="Resume.pdf">
+              <a href="https://raw.githubusercontent.com/GLCRealm/motion-dev-profile/main/public/photo/Tomar.pdf" Download="Resume.pdf">
                 <Button 
                   size="lg"
                   variant="outline"
